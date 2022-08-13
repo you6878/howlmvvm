@@ -3,9 +3,6 @@ package com.example.howlmvvm
 class Model {
     var password : MutableList<Int> = mutableListOf()
 
-    fun resetArray(){
-        password.clear()
-    }
     fun inputPassword(i : Int){
         if(password.size < 4){
             password.add(i)
